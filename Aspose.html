@@ -1,0 +1,230 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 15">
+<style id="Aspose.-.Dynamic.DCF_25127_Styles">
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+.xl1525127
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:����;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6325127
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:����;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:"\#\,\#\#0";
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6425127
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:����;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6525127
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:����;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:"\#\,\#\#0";
+	text-align:general;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6625127
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:����;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:0%;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6725127
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:����;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:"_\(* \#\,\#\#0_\)\;_\(* \\\(\#\,\#\#0\\\)\;_\(* \0022-\0022??_\)\;_\(\@_\)";
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:����;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-char-type:none;}
+	.table td{
+		width:100pt;
+	}
+-->
+</style>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script language="javascript">
+$(document).ready(function(){
+	$("#id_submit").click(function() {
+		data = {}
+		data.wacc = $("#txt_wacc").val();
+		data.grouth_rate = $("#txt_growth_rate").val();
+		data.debt = $("#txt_debt").val();
+		data.cce = $("#txt_cce").val();
+		$.ajax({url:"calc", type:"POST",
+				data: data,
+			success:function(result) {
+				var obj=JSON.parse(result);
+				$("#id_enterprise_value").text(obj["c13"]);
+				$("#id_debt").text(obj["c14"]);
+				$("#id_cce").text(obj["c15"]);
+				$("#id_new_debt").text(obj["c16"]);
+				$("#id_value").text(obj["c17"]);
+		}});
+	});
+})
+</script>
+</head>
+
+<body>
+
+<div id="Aspose.-.Dynamic.DCF_25127" align=center x:publishsource="Excel">
+
+<table border=0 cellpadding=0 cellspacing=0 width=218 style='border-collapse:
+ collapse;table-layout:fixed;width:163pt' class="table">
+ <col width=119 style='mso-width-source:userset;mso-width-alt:3808;width:89pt'>
+ <col width=99 style='mso-width-source:userset;mso-width-alt:3168;width:74pt'>
+ <tr height=19 style='height:14.25pt;'>
+  <td height=19 class=xl6425127 width=119 style='height:14.25pt;width:89pt'>WACC</td>
+  <td class=xl6625127 align=right width=99 style='width:74pt'><input type="text" id="txt_wacc" value="10%" style="width:74pt;text-align: right;"></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 class=xl6425127 style='height:14.25pt'>Growth rate</td>
+  <td class=xl6625127 align=right><input type="text" id="txt_growth_rate" value="3%" style="width:74pt;text-align: right;"></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 class=xl6425127 style='height:14.25pt'>Debt</td>
+  <td class=xl6725127><input type="text" id="txt_debt" value="8,000,000" style="width:74pt;text-align: right;"></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 class=xl6425127 style='height:14.25pt'>C&amp;CE</td>
+  <td class=xl6725127><input type="text" id="txt_cce" value="3,000,000" style="width:74pt;text-align: right;"></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 class=xl1525127 style='height:14.25pt'></td>
+  <td class=xl1525127 align=right><input type="button" id="id_submit" value="submit"></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 class=xl6425127 style='height:14.25pt'>Enterprise value</td>
+  <td class=xl6325127 align=right id="id_enterprise_value"></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 class=xl6425127 style='height:14.25pt'>Debt</td>
+  <td class=xl6325127 align=right id="id_debt"></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 class=xl6425127 style='height:14.25pt'>C&amp;CE</td>
+  <td class=xl6325127 align=right id="id_cce"></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 class=xl6425127 style='height:14.25pt'>Net debt</td>
+  <td class=xl6325127 align=right id="id_new_debt"></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl6425127 style='height:15.0pt'>Value</td>
+  <td class=xl6525127 align=right id="id_value"></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=119 style='width:89pt'></td>
+  <td width=99 style='width:74pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+</body>
+
+</html>
