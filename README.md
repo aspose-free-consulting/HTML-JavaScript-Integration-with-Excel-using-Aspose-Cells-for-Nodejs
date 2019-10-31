@@ -47,24 +47,35 @@ Make sure, you have already installed all the requied components and modules inc
 
 *	Make sure you have copied aspose.cells folder
 
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/1214951/67923917-09a42600-fbd1-11e9-8473-7348958adc66.png">
  
 * Copy the demo files with template file in the folder
  
+ <img width="468" alt="image" src="https://user-images.githubusercontent.com/1214951/67923926-0f9a0700-fbd1-11e9-8499-e5b4b927d3b6.png">
  
 * Run the server.js file first
- 
+
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/1214951/67923931-158fe800-fbd1-11e9-93c3-64c7483d9ff5.png">
  
 * Open some browser (I used Google chrome) and run the HTML file by application server at port 8080
 (The values shown into these fields are default values shown which are mentioned in the source of the .html file.)
   
-  
+  <img width="468" alt="image" src="https://user-images.githubusercontent.com/1214951/67923944-1aed3280-fbd1-11e9-80c2-95e9a36e7c09.png">
+
 * Now click “submit” and the below fields would be calculated accordingly
 
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/1214951/67923955-1fb1e680-fbd1-11e9-8d8a-346164baf278.png">
 
- 
 * After changing the top values a bit and then clicking “submit” again. You will see the formula values are re-calculated and the results are shown into respective fields accordingly
 
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/1214951/67923968-23456d80-fbd1-11e9-89ef-603a42dc8d1e.png">
 
- 
+
+ ## Interested in Aspose free consulting project?
+[If you are also interested in a free consulting project by Aspose team then please view details on this page](https://aspose-free-consulting.github.io/)
+
+If you have any questions about Aspose APIs, please feel free to [post your query in Aspose file format APIs Forums](https://forum.aspose.com/). 
+
+Also, you can keep in touch with the latest developments in [file format APIs offered by Aspose at our Blog](https://blog.aspose.com/). 
 
 
