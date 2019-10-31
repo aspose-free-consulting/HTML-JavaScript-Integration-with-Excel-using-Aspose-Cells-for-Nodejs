@@ -11,11 +11,11 @@ We need to setup up environment and all the required modules with configurations
 * It is better to install node.js v11.5.0 as we found that latest version (v12.0) has some compatibility issues with VS.NET tools (which are also required), so we have to use this version (downloaded and installed using node-v11.15.0-x64.msi). I have VS.NET 2017 on my pc (OS: Windows 10).
 * Open “Node.js command prompt” as an Administrator and run the following commands by changing to your specified directory. In our case, it is “F:\files\”:
 '''
-** mkdir aspose.cells.js.java
-** cd aspose.cells.js.java
-** npm config set msvs_version 2017
-** npm install -g node-gyp
-** npm install java
+mkdir aspose.cells.js.java
+cd aspose.cells.js.java
+npm config set msvs_version 2017
+npm install -g node-gyp
+npm install java
 '''
 * Make sure that you have installed Oracle JDK/JRE 8 on the system and set all the relevant environment variables (e.g. JAVA_HOME, Path, classpath, etc.)
 * Download Aspose.Cells for Node.js via Jav v19.8 and extract it into "aspose.cells.js.java/node_modules" folder
