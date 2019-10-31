@@ -20,9 +20,16 @@ npm install java
 * Make sure that you have installed Oracle JDK/JRE 8 on the system and set all the relevant environment variables (e.g. JAVA_HOME, Path, classpath, etc.)
 * Download Aspose.Cells for Node.js via Jav v19.8 and extract it into "aspose.cells.js.java/node_modules" folder
 * Now install express (http) application server
-```npm install express –g```
+```
+npm install express –g
+```
+
 * Note, when we use "npm install express -g" and then running the command “node server.js" could throw exception as it could not find "express". So, we have to use the following command: 
-```npm install express –save```
+
+```
+npm install express –save
+```
+
 * However, with save option "aspose.cells" component folder under “aspose.cells.js.java/node_modules" folder was deleted, I had to copy it again, so you may do the same if you find such issue
 
 #  The Demo
