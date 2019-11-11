@@ -6,7 +6,7 @@
  
  ## Set up Modules and Environment
 
-We need to setup up environment and all the required modules with configurations i.e node.js, nod-java bridge and express server. We used (Aspose.Cells for Node.js via Java v19.8)[https://downloads.aspose.com/cells/nodejs].
+We need to setup up environment and all the required modules with configurations i.e node.js, nod-java bridge and express server. We used [Aspose.Cells for Node.js via Java v19.8](https://downloads.aspose.com/cells/nodejs).
 
 * It is better to install node.js v11.5.0 as we found that latest version (v12.0) has some compatibility issues with VS.NET tools (which are also required), so we have to use this version (downloaded and installed using node-v11.15.0-x64.msi). I have VS.NET 2017 on my pc (OS: Windows 10).
 * Open “Node.js command prompt” as an Administrator and run the following commands by changing to your specified directory. In our case, it is “F:\files\”:
