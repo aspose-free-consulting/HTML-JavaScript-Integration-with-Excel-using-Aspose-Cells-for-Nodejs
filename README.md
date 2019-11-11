@@ -1,6 +1,6 @@
 # HTML & JavaScript Integration with Excel using Aspose.Cells for Nodejs
 
- This [Aspose free consulting project](https://aspose-free-consulting.github.io/) helps you understand HTML/JavaScript integration with Excel using [Aspose.Cells for Nodejs via Java](https://downloads.aspose.com/). This helps you calculate and move data between HTML page and Excel sheet without opening the Excel file.
+ This [Aspose free consulting project](https://aspose-free-consulting.github.io/) helps you understand HTML/JavaScript integration with Excel using [Aspose.Cells for Nodejs via Java](https://products.aspose.com/cells/nodejs-java). This helps you calculate and move data between HTML page and Excel sheet without opening the Excel file.
  
  # System Requirements and Notes
  
