@@ -38,7 +38,7 @@ npm install express –save
 ** server.js: in this file, we have code segment with [Aspose.Cells for Node.js via Java API](https://products.aspose.com/cells/nodejs-java) which reads and writes values (using reqest/response architecture), from/into the included XLSX file 
 ** The included file is taken as template file, code will need to be adjusted based on the input Excel file
 ** We will use express application server to request and response data as JSON
-* Aspose.html: this is a simple frond end file which has some interface fields. You will input values in respective fields and then this will be submitted to server (which is listening at some port), and then the server.js file would come in play  
+* Aspose.html: this is a simple front end file which has some interface fields. You will input values in respective fields and then this will be submitted to server (which is listening at some port), and then the server.js file would come in play  
 * Note, in server.js, the request data would be read and inserted into respective fields in the sheet and then we [calculate formulas using Workbook.calculateFormula()](https://docs.aspose.com/display/cellsjava/Ways+to+Calculate+Formulas) method, So other cells with formulas will be processed in the sheet. 
 * Finally, it will respond with calculated results as JSON to the client end  
 * In .html file the other respective fields would be filled from JSON (response) data of the server
