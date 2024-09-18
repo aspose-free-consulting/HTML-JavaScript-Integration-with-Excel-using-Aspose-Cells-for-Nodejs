@@ -89,5 +89,4 @@ Also, you can keep in touch with the latest developments in [file format APIs of
 
 ## This free consulting project is based on the following issue: 
 
-[HTML/Javascript & Excel integration](https://github.com/aspose-free-consulting/projects/issues/14)
-
+HTML/Javascript & Excel integration: github.com/aspose-free-consulting/projects/issues/14
